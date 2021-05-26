@@ -1,0 +1,13 @@
+.card{
+	color: #EEE;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(1,4,22,0.91);
+}
+
+.modal{
+	background: rgba(0,0,0,0.62)
+}
+.none{display: none;}
+
+.display{display: block}

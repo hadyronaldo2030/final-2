@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<link href="bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="fonts/all.min.css" rel="stylesheet" type="text/css">
+	
+    <link href="styel.css" rel="stylesheet">
+	<title>Add Alert Task</title>
+</head>    
+<body>
+
+	
+	<div class="container">
+		<div class="card my-5">
+			<button id="show" class="btn btn-primary w-50 m-auto my-5">Add Task </button>
+
+			<div id="notask" class="card-body">
+				<div class="alert alert-danger text-center ">
+					No Data Added Yet
+				</div>
+			</div>
+			<div id="tasks" class="card-body m-auto w-75"></div>
+		</div>
+	</div>
+
+	
+	<div id="model" class="modal" tabindex="-1">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header card">
+			<h5 class="modal-title">Add Task</h5>
+			<button type="button" class="close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  </div>
+		  <div class="modal-body">
+
+			<div class="container">
+				<div class="card bg-light">
+					<div class="card-body">
+						<label>Add Task</label>
+						<input type="text" placeholder="Task" id="taskdata" class="form-control m-auto w-75">	
+					</div>
+					<button type="text" id="addbtn" class="w-50 m-2 mx-auto btn-block btn btn-primary">Add Now</button>
+				</div> 
+			</div>
+			  
+		  </div>
+		  <div class="modal-footer">
+			<button type="button"  class="close btn btn-danger" data-bs-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<script   src="jquery-1.11.1.min.js"></script>
+    <script src="index-javascript.js"></script>
+	
+</body>
+</html>
